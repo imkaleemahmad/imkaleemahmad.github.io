@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - imkaleemahmad
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - imkaleemahmad/PromptDrivenImageAnalysis-BS-FYP24
+  - imkaleemahmad/EyeDiseaseDetection-Segmentation
+  - imkaleemahmad/RT3D-FaceRecon
+  - imkaleemahmad/NystagmusDetection-RT
