@@ -26,20 +26,22 @@
         {% endif %}
       {% endif %}
       {% if entry.preview %}
+        {% if entry.preview_link %}<a href="{{ entry.preview_link }}" target="_blank" rel="noopener">{% endif %}
         {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="img-fluid preview z-depth-1 rounded" src="{{ entry.preview }}" alt="{{ entry.title | escape }}">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
             include figure.liquid
             loading="eager"
             path=entry_path
-            sizes = "200px"
+            sizes = "(min-width: 1200px) 190px, (min-width: 992px) 160px, (min-width: 768px) 120px, (min-width: 576px) 90px, 50vw"
             class="preview z-depth-1 rounded"
             zoomable=true
             alt=entry.preview
           %}
         {% endif %}
+        {% if entry.preview_link %}</a>{% endif %}
       {% endif %}
     </div>
   {% endif %}

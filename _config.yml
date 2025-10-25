@@ -8,18 +8,44 @@ middle_name:
 last_name: Ahmad
 email: imkaleemahmad@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-    Welcome to my personal site, showcasing my academic journey, research interests, and projects. Here, you will find details about my work in computer science, including image processing, data science, and artificial intelligence.
+  Data & AI Engineer and computer vision researcher from Peshawar, Pakistan. I work on generative AI, multimodal learning, and medical imaging—covering segmentation, detection, inpainting, and explainable AI. Explore publications, projects, and open-source code.
+
 footer_text: >
 #  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: kaleem, kaleemahmad, kaleem_ahmad, kaleem pakistan, ahmad pakistan, academic-website, portfolio-website, agriculture university, researcher, freelancer pakistan, freelancer # add your own keywords or leave empty
+keywords: >
+  kaleem, kaleem ahmad, kaleemahmad, kaleem_ahmad, kaleem peshawar, kaleem pakistan, ahmad pakistan,
+  kaleem ahmad ai, kaleem ahmad researcher, kaleem ahmad portfolio, kaleem ahmad github, kaleem ahmad google scholar,
+  data & ai engineer, data scientist pakistan, computer vision researcher, medical imaging researcher,
+  generative ai engineer, multimodal ai, large multimodal models, vision-language models, cross-modal learning,
+  prompt-driven image analysis, arxiv 2509.08489, arxiv preprint, research publications, academic website,
+  computer vision, cv, deep learning, dl, machine learning, ml, artificial intelligence, ai,
+  segmentation, detection, inpainting, interpretation, explainable ai, xai, trustworthy ai,
+  healthcare ai, clinical ai, neuroimaging, ct angiography, neurovascular segmentation,
+  intracranial artery segmentation, segformer, segformer-b0, transformer models,
+  groundingdino, sam, stable diffusion, diffusion models, vae, gan, transformers,
+  nystagmus detection, ocular pathology, scleral analysis, rap metric, mrl metric,
+  real-time 3d face reconstruction, 3ddfa, aflw2000-3d, webgl, webgl studio,
+  synthetic data generation, gdpr compliant synthetic data, xero api integration,
+  predictive analytics, time series forecasting, anomaly detection,
+  pytorch, tensorflow, keras, python, r, c++, javascript, typescript, node.js, express,
+  numpy, pandas, spark, hadoop, etl, batch etl, streaming etl, data warehousing, sql, nosql,
+  postgresql, mongodb, plotly, matplotlib, seaborn, tableau, power bi, streamlit, dash,
+  docker, kubernetes, ci/cd, github actions, jenkins, ansible, aws, azure, gcp, cloud ml,
+  edge ai, on-device inference, model optimization,
+  university of agriculture peshawar, institute of computer sciences & information technology,
+  university of bradford teaching assistant, demolytics ltd, data dive ltd, britanalytics,
+  orcid 0009-0001-8788-3672, google scholar duxjikaaaaaj, researchgate kaleem-ahmad-9,
+  pakistan ai researcher, peshawar ai, academic portfolio, personal website, resume online,
+  publications page, projects, open-source, github repositories,
+  prompt engineering, multimodal prompts, medical image segmentation, computer vision healthcare
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧑‍💻 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://imkaleemahmad.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -49,12 +75,12 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: false
+search_enabled: true
 socials_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1024px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -63,9 +89,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/og/site-card.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -108,7 +134,7 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: # your X handle
+x_username: imkaleemahmad # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
@@ -313,8 +339,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Ahmad]
+  first_name: [Kaleem]
 
   style: apa
   locale: en

@@ -1,0 +1,14 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Target only the publications thumbnail column to avoid unintended effects
+  document.querySelectorAll('.publications .abbr').forEach(function (col) {
+    Array.from(col.childNodes).forEach(function (n) {
+      if (n.nodeType === Node.TEXT_NODE &&
+          n.textContent.includes('<source class="responsive-img-srcset')) {
+        n.remove();
+      }
+    });
+  });
+});
+</script>
+

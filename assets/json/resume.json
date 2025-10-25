@@ -1,19 +1,10 @@
 {
   "basics": {
     "name": "Kaleem Ahmad",
-    "position": "Certified Data Analyst & Full-Stack Artificial Intelligence Developer",
+    "position": "Data & AI Engineer",
     "image": "",
     "email": "imkaleemahmad@gmail.com",
-    "phone": "+923129330148",
-    "url": "https://imkaleemahmad.github.io/",
-    "summary": "A Computer Science graduate passionate about innovation, research, and solving real-world problems using technology.",
-    "location": {
-      "address": "Main City",
-      "postalCode": "25120",
-      "city": "Peshawar",
-      "countryCode": "PK",
-      "region": "Pakistan"
-    },
+    "summary": "Computer Science graduate and Data & AI Engineer with a strong focus on computer vision, generative AI, and multimodal learning. Passionate about developing explainable, reliable, and human-centered intelligent systems.",
     "profiles": [
       {
         "network": "Github",
@@ -29,30 +20,54 @@
   },
   "work": [
     {
-      "name": "Freelance",
-      "position": "Data Analyst & Full-Stack AI Developer",
-      "url": "https://www.upwork.com/freelancers/~01898479b6df86ff02",
-      "startDate": "2022-09-01",
+      "name": "Demolytics Ltd",
+      "position": "Data Scientist",
+      "url": "https://demolytics.co.uk/",
+      "startDate": "2024-12-01",
       "endDate": "Present",
-      "summary": "Provided data-driven insights and solutions through predictive modeling and visualization, allowing clients to make more informed decisions and streamline operations.",
+      "summary": "Develop transformer-based GANs and VAEs for large-scale synthetic data generation, ensuring GDPR compliance and high statistical fidelity across 20M+ records. Lead Xero API integration to automate financial data simulation for client demos and internal testing.",
       "highlights": [
-        "Achieved 98% accuracy in predictive sales models.",
-        "Designed interactive dashboards with Tableau, Power BI, and Streamlit."
+        "Achieved 97% statistical accuracy in synthetic data validation.",
+        "Automated synthetic organization setup for financial analytics."
+      ]
+    },
+    {
+      "name": "University of Bradford",
+      "position": "Teaching Assistant",
+      "url": "https://www.bradford.ac.uk/",
+      "startDate": "2023-05-01",
+      "endDate": "2025-08-01",
+      "summary": "Delivered online labs in Python, data visualization, and machine learning for postgraduate courses (OIM7507, OIM7508). Mentored students in ML modeling using scikit-learn, TensorFlow, and PyTorch, ensuring conceptual and practical understanding.",
+      "highlights": [
+        "Supported course delivery for over 100 MSc students remotely.",
+        "Reviewed and optimized teaching materials for clarity and accuracy."
+      ]
+    },
+    {
+      "name": "Data Dive Ltd",
+      "position": "Associate Data Analyst",
+      "url": "https://datadives.co.uk/",
+      "startDate": "2023-12-01",
+      "endDate": "2024-11-01",
+      "summary": "Developed data pipelines using Python and Spark for data collection, cleaning, and processing. Built machine learning models for forecasting and anomaly detection, achieving over 90% accuracy. Created interactive dashboards for non-technical stakeholders.",
+      "highlights": [
+        "Deployed Streamlit and Power BI dashboards for business reporting.",
+        "Enhanced forecasting accuracy and operational efficiency."
+      ]
+    },
+    {
+      "name": "BritAnalytics",
+      "position": "Junior AI Engineer",
+      "url": "https://britanalytics.com/",
+      "startDate": "2022-09-01",
+      "endDate": "2023-12-01",
+      "summary": "Designed and trained machine learning models for sales prediction and behavioral analytics, improving forecasting accuracy to 89%. Automated ETL workflows and developed dashboards to support data-driven business decisions.",
+      "highlights": [
+        "Reduced data cleanup time by 45% through ETL automation.",
+        "Delivered high-accuracy predictive models for SME clients."
       ]
     }
   ],
-  // "volunteer": [
-  //   {
-  //     "organization": "People's Climate March",
-  //     "location": "Zurich, Switzerland",
-  //     "position": "Lead Organizer",
-  //     "url": "https://example.com",
-  //     "startDate": "2014-04-01",
-  //     "endDate": "2015-07-01",
-  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-  //   }
-  // ],
   "education": [
     {
       "institution": "Institute of Computer Sciences & Information Technology, The University of Agriculture",
@@ -62,185 +77,213 @@
       "studyType": "Bachelor of Science",
       "startDate": "2020-10-12",
       "endDate": "2024-09-02",
-      "score": "3.29/4.0",
-      "courses": [
-        "Data Structures and Algorithms",
-        "Artificial Intelligence",
-        "Computer Networks",
-        "Cloud Computing",
-        "Database Systems",
-        "Programming"
-      ]
+      "score": "3.29 / 4.00"
     }
   ],
   "projects": [
     {
-      "name": "Prompt-Driven Image Analysis",
-      "summary": "Developed a multimodel generative artificial system for image segmentation, transformation, and cognitive interpretation using prompts.",
-      "highlights": ["Integrated GANs and NLP for enhanced analysis."],
-      "startDate": "2024-02-01",
-      "endDate": "2024-08-01",
-      "url": "https://github.com/imkaleemahmad/PromptDrivenImageAnalysis-BS-FYP24"
+      "name": "SegFormer-based Intracranial Artery Segmentation (SIAS)",
+      "summary": "Fine-tuned SegFormer-B0 for neurovascular segmentation in CT angiography, achieving 66% mIoU and 70% Dice scores from limited data.",
+      "highlights": [
+        "Enabled efficient segmentation using a lightweight transformer backbone."
+      ],
+      "startDate": "2025-03-01",
+      "endDate": "2025-05-01",
+      "url": ""
     },
     {
-      "name": "3D Face Reconstruction",
-      "summary": "Created a deep learning model for real-time 3D face reconstruction from 2D images.",
-      "highlights": ["Utilized WebGL Studio and ResNet for visualization."],
+      "name": "Prompt-Driven Image Analysis",
+      "summary": "Developed a multimodal NLP-vision framework integrating GroundingDINO, SAM, and Stable Diffusion for prompt-based image detection, segmentation, and inpainting.",
+      "highlights": [
+        "Published as an arXiv Preprint (arXiv:2509.08489) and featured by Valoris Research."
+      ],
+      "startDate": "2024-02-01",
+      "endDate": "2024-08-01",
+      "url": "https://arxiv.org/abs/2509.08489"
+    },
+    {
+      "name": "Real-Time 3D Facial Reconstruction from Images",
+      "summary": "Developed a CNN-PCA pipeline using AFLW2000-3D and 3DDFA for real-time 3D facial reconstruction, visualized via WebGL Studio.",
+      "highlights": [
+        "Optimized inference for single-image reconstruction and real-time streaming."
+      ],
       "startDate": "2023-12-01",
       "endDate": "2024-02-01",
       "url": "https://github.com/imkaleemahmad/RT3D-FaceRecon"
     },
     {
-      "name": "Nystagmus Detection",
-      "summary": "Built a deep learning-based system for early detection of nystagmus through retina movement classification.",
-      "highlights": ["Implemented advanced vision models."],
+      "name": "Automated Nystagmus Detection from Video",
+      "summary": "Built a real-time computer vision pipeline for eye-movement tracking and oscillation classification, supporting early neurological screening.",
+      "highlights": [
+        "Achieved subtype detection for pendular, jerk, and gaze-evoked nystagmus."
+      ],
       "startDate": "2023-10-01",
       "endDate": "2023-12-01",
       "url": "https://github.com/imkaleemahmad/NystagmusDetection-RT"
+    },
+    {
+      "name": "Early Ocular Pathology Detection via Scleral Analysis",
+      "summary": "Applied SAM for scleral segmentation and redness quantification (RAP, MRL metrics) to enable non-invasive early detection of ocular hypertension.",
+      "highlights": [
+        "Demonstrated explainable computer vision in medical imaging applications."
+      ],
+      "startDate": "2023-08-01",
+      "endDate": "2023-09-01",
+      "url": ""
+    },
+    {
+      "name": "Interactive Digital Authoring Platform for E-Learning",
+      "summary": "Developed a modular in-browser editor with real-time collaboration and multimedia integration for educators using a decoupled Core + Sandbox architecture.",
+      "highlights": [
+        "Enabled live editing with auto-save and version control for e-learning content."
+      ],
+      "startDate": "2022-07-01",
+      "endDate": "2023-02-01",
+      "url": ""
     }
   ],
-  // "awards": [
-  //   {
-  //     "title": "Nobel Prize in Physics",
-  //     "date": "1921-11-01",
-  //     "awarder": "Royal Swedish Academy of Sciences",
-  //     "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-  //     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-  //   }
-  // ],
-  // "certificates": [
-  //   {
-  //     "name": "Machine Learning",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-location-dot"
-  //   },
-  //   {
-  //     "name": "Quantum Computing",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-tag"
-  //   },
-  //   {
-  //     "name": "Quantum Information",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-envelope"
-  //   },
-  //   {
-  //     "name": "Quantum Cryptography",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-hashtag"
-  //   },
-  //   {
-  //     "name": "Quantum Communication",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-calendar"
-  //   },
-  //   {
-  //     "name": "Quantum Teleportation",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-clipboard-check"
-  //   }
-  // ],
-  // "publications": [
-  //   {
-  //     "name": "Zur Elektrody/namik bewegter Körper",
-  //     "publisher": "Annalen der Physik",
-  //     "releaseDate": "1905-06-30",
-  //     "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-  //     "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-  //   },
-  //   {
-  //     "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-  //     "publisher": "Annalen der Physik",
-  //     "releaseDate": "1905-03-18",
-  //     "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-  //     "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-  //   },
-  //   {
-  //     "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-  //     "publisher": "Annalen der Physik",
-  //     "releaseDate": "1916-03-20",
-  //     "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-  //     "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-  //   }
-  // ],
-  // "skills": [
-  //   {
-  //     "name": "Programming & Development",
-  //     "level": "Master",
-  //     "icon": "fa-solid fa-hashtag",
-  //     "keywords": [
-  //       "Quantum Mechanics",
-  //       "Quantum Computing",
-  //       "Quantum Information",
-  //       "Quantum Cryptography",
-  //       "Quantum Communication",
-  //       "Quantum Teleportation"
-  //     ]
-  //   }
-  // ],
- "languages": [
-  {
-    "language": "English",
-    "fluency": "Proficient (IELTS Academic 7.0 - CEFR Level: C1)",
-    "icon": ""
-  },
-  {
-    "language": "Urdu",
-    "fluency": "Native Speaker",
-    "icon": ""
-  },
-  {
-    "language": "Pashto",
-    "fluency": "Mother Tongue",
-    "icon": ""
-  }
-],
+  "awards": [
+    {
+      "title": "Runner-Up - University of Porto Research Studentship Award",
+      "date": "2025-03",
+      "awarder": "Faculty of Economics, University of Porto, Portugal",
+      "summary": "Ranked 2nd among international candidates for the EU-funded project 'PROD-AI: Predictive AI/ML Solutions for Procurement and Production Management' (COMPETE2030-FEDER-01474600)."
+    },
+    {
+      "title": "National Laptop Award Recipient",
+      "date": "2023-06",
+      "awarder": "Higher Education Commission (HEC), Pakistan",
+      "summary": "Selected on academic merit under the Prime Minister's Youth Laptop Scheme 2023, ranking in the top 20% of the national Computer Science cohort."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Generative AI for Data Scientists",
+      "date": "2024",
+      "issuer": "IBM",
+      "url": ""
+    },
+    {
+      "name": "Machine Learning Specialization",
+      "date": "2023",
+      "issuer": "Stanford University (DeepLearning.AI)",
+      "url": ""
+    },
+    {
+      "name": "Data Analyst Associate",
+      "date": "2023",
+      "issuer": "DataCamp",
+      "url": ""
+    },
+    {
+      "name": "Cybersecurity Specialization",
+      "date": "2020",
+      "issuer": "University of Maryland",
+      "url": ""
+    },
+    {
+      "name": "IT Support Professional",
+      "date": "2022",
+      "issuer": "Google",
+      "url": ""
+    },
+    {
+      "name": "Certificate in IT (Web–Android Development)",
+      "date": "2021",
+      "issuer": "NAVTTC (Government of Pakistan)",
+      "url": ""
+    },
+    {
+      "name": "Machine Learning Specialization",
+      "date": "2020",
+      "issuer": "University of Washington",
+      "url": ""
+    },
+    {
+      "name": "Introduction to Programming & IoT Specialization",
+      "date": "2020",
+      "issuer": "University of California",
+      "url": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI & Machine Learning",
+      "keywords": [
+        "PyTorch · TensorFlow · Keras",
+        "GANs · VAEs · Diffusion Models",
+        "Transformers · Computer Vision",
+        "Natural Language Processing",
+        "Reinforcement Learning & Agent Tooling"
+      ]
+    },
+    {
+      "name": "Data Science & Engineering",
+      "keywords": [
+        "NumPy · Pandas · Spark",
+        "Batch & Streaming ETL",
+        "SQL · NoSQL · Data Warehousing",
+        "PostgreSQL · MongoDB",
+        "Hadoop Ecosystem Tooling"
+      ]
+    },
+    {
+      "name": "Visualization",
+      "keywords": [
+        "Matplotlib · Seaborn · Plotly",
+        "Streamlit Prototyping",
+        "Power BI & Tableau Dashboards"
+      ]
+    },
+    {
+      "name": "Programming & Development",
+      "keywords": [
+        "Python · R · Java · C++",
+        "JavaScript · TypeScript",
+        "Node.js & Express APIs",
+        "Scientific Writing with LaTeX"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "keywords": [
+        "AWS · Azure · GCP",
+        "Containerization with Docker",
+        "Kubernetes Orchestration",
+        "CI/CD Automation (Jenkins, GitHub Actions)",
+        "Infrastructure Automation with Ansible"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Proficient (IELTS Academic 7.0 - CEFR Level: C1)",
+      "icon": ""
+    },
+    {
+      "language": "Urdu",
+      "fluency": "Native Speaker",
+      "icon": ""
+    },
+    {
+      "language": "Pashto",
+      "fluency": "Mother Tongue",
+      "icon": ""
+    }
+  ],
   "interests": [
-  {
-    "name": "Computer Science",
-    "icon": "fa-solid fa-code",
-    "keywords": [
-      "Image Processing",
-      "Medical Imaging",
-      "Generative AI",
-      "Large Language Models",
-      "Data Science",
-      "Big Data"
-     ]
-    }
-  ],
-  "references": [
     {
-      "name": "Dr. Asfandyar Khan",
-      "icon": "fa-solid fa-user",
-      "reference": "Head of Department, Assistant Professor, Institute of Computer Science and Information Technology (ICS/IT), The University of Agriculture, Peshawar, Pakistan."
-    },
-    {
-      "name": "Dr. Abdullah Khan",
-      "icon": "fa-solid fa-user",
-      "reference": "Assistant Professor, Institute of Computer Science and Information Technology (ICS/IT), The University of Agriculture, Peshawar, Pakistan."
-    },
-    {
-      "name": "Dr. Irfan Mehmood",
-      "icon": "fa-solid fa-user",
-      "reference": "Associate Professor, Faculty of Management, Law, and Social Sciences, University of Bradford, United Kingdom."
-    },
-    {
-      "name": "Dr. Jamil Ahmad",
-      "icon": "fa-solid fa-user",
-      "reference": "Assistant Professor, College of Information Technology, United Arab Emirates University, United Arab Emirates."
+      "name": "Research & Innovation",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Computer Vision",
+        "Medical Imaging",
+        "Generative AI",
+        "Multimodal Learning",
+        "Explainable AI",
+        "Data Science"
+      ]
     }
   ]
 }

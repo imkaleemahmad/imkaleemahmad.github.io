@@ -5,6 +5,8 @@ repo_description_lines_max: 2
 
 github_repos:
   - imkaleemahmad/PromptDrivenImageAnalysis-BS-FYP24
-  - imkaleemahmad/EyeDiseaseDetection-Segmentation
-  - imkaleemahmad/RT3D-FaceRecon
+  - imkaleemahmad/SIAS
   - imkaleemahmad/NystagmusDetection-RT
+  - imkaleemahmad/RT3D-FaceRecon
+  - imkaleemahmad/PDF-Multimedia-Learning
+  - imkaleemahmad/EyeDiseaseDetection-Segmentation

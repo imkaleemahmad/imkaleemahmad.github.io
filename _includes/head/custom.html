@@ -6,3 +6,42 @@
   gtag('js', new Date());
   gtag('config', 'G-2K2WZMXVY8');
 </script>
+
+{% comment %}SEO: Title logic for better CTR{% endcomment %}
+{% if page.title %}
+  <title>{{ page.title }} | {{ site.first_name }} {{ site.last_name }}</title>
+{% else %}
+  <title>{{ site.first_name }} {{ site.last_name }} — Data & AI Engineer</title>
+{% endif %}
+
+{% comment %}SEO: Fallback meta description if a page lacks one{% endcomment %}
+{% unless page.description %}
+  <meta name="description" content="{{ site.description | strip | truncate: 155 }}">
+{% endunless %}
+
+{% comment %}Open Graph (Facebook/LinkedIn) + Twitter cards{% endcomment %}
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.first_name }} {{ site.last_name }}{% else %}{{ site.first_name }} {{ site.last_name }} — Data & AI Engineer{% endif %}">
+<meta property="og:description" content="{{ page.description | default: site.description | strip | truncate: 200 }}">
+{% if site.og_image %}<meta property="og:image" content="{{ site.og_image | relative_url }}">{% endif %}
+
+<meta name="twitter:card" content="summary_large_image">
+{% if site.x_username %}<meta name="twitter:site" content="@{{ site.x_username }}">{% endif %}
+{% if site.og_image %}<meta name="twitter:image" content="{{ site.og_image | relative_url }}">{% endif %}
+
+{% comment %}Performance: preconnect to Google Fonts{% endcomment %}
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+{% comment %}Include Person schema (created below){% endcomment %}
+{% include schema/person.json %}
+
+{% comment %}Favicons & PWA{% endcomment %}
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/favicon/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/favicon/favicon-16x16.png' | relative_url }}">
+<link rel="manifest" href="{{ '/assets/img/favicon/site.webmanifest' | relative_url }}">
+<link rel="mask-icon" href="{{ '/assets/img/favicon/safari-pinned-tab.svg' | relative_url }}" color="#0ea5e9">
+<meta name="msapplication-TileColor" content="#0ea5e9">
+<meta name="theme-color" content="#0ea5e9">

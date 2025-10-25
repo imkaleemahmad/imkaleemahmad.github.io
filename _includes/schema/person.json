@@ -1,0 +1,24 @@
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"{{ site.first_name }} {{ site.last_name }}",
+  "jobTitle":"Data & AI Engineer",
+  "description": {{ site.description | jsonify }},
+  "email":"mailto:{{ site.email }}",
+  "url":"{{ site.url }}",
+  "image":"{{ site.og_image | default: '/assets/img/og/site-card.jpg' | relative_url }}",
+  "affiliation":[
+    {"@type":"Organization","name":"Demolytics Ltd"},
+    {"@type":"CollegeOrUniversity","name":"University of Bradford"},
+    {"@type":"CollegeOrUniversity","name":"The University of Agriculture, Peshawar"}
+  ],
+  "sameAs":[
+    "https://github.com/{{ site.github_username }}",
+    "https://www.linkedin.com/in/{{ site.linkedin_username }}",
+    "https://scholar.google.com/citations?user={{ site.scholar_userid }}",
+    "https://www.researchgate.net/profile/{{ site.research_gate_profile | replace: ' ', '-' }}"
+  ]
+}
+</script>
+
