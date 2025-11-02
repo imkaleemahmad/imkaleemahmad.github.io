@@ -8,7 +8,7 @@ middle_name:
 last_name: Ahmad
 email: imkaleemahmad@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Data & AI Engineer and computer vision researcher from Peshawar, Pakistan. I work on generative AI, multimodal learning, and medical imaging—covering segmentation, detection, inpainting, and explainable AI. Explore publications, projects, and open-source code.
+  Data & Artificial Intelligence Engineer from Pakistan, passionate about building intelligent systems and sharing open-source innovations. Explore my projects, publications, and contributions to the artificial intelligence community.
 
 footer_text: >
 #  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
