@@ -6,7 +6,7 @@ subtitle: "\"Innovatio Ad Futurum - (Innovation for the Future).\""
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: new1.jpeg
   image_circular: True # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
