@@ -70,6 +70,16 @@
   ],
   "education": [
     {
+      "institution": "Yeungnam University",
+      "location": "Gyeongsan, South Korea",
+      "url": "https://www.yu.ac.kr/",
+      "area": "Information and Communication Engineering",
+      "studyType": "Master's Degree",
+      "startDate": "2026-03-01",
+      "endDate": "Present",
+      "score": ""
+    },
+    {
       "institution": "Institute of Computer Sciences & Information Technology, The University of Agriculture",
       "location": "Peshawar, Pakistan",
       "url": "https://www.aup.edu.pk/",
